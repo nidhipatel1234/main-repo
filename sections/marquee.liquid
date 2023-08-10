@@ -1,0 +1,48 @@
+<marquee>
+  {% for block in section.blocks %}  
+  <span>{{ block.settings.text }}</span>  
+  {% endfor %}
+</marquee>
+{% schema %}
+{
+"name": "Marquee",
+"class": "marquee_text",
+"tag": "section",
+"settings": [
+{
+"type": "header",
+"content": "Text"
+}	
+],
+"blocks": [
+{
+"name": "marquee",
+"type": "slider",
+"settings": [
+{
+"type": "text",
+"id": "text",
+"label": "text"
+}
+]
+}
+],
+"presets": [
+{
+"name": "marquee",
+"category": "custom_slider",
+"blocks": [
+{
+"type": "slider"
+}
+]
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

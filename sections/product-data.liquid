@@ -1,0 +1,61 @@
+<div class="new_arrival">
+  <div class="product_details">
+  <h3>{{ section.settings.product_new }}</h3>
+  
+  {%- assign product = all_products[section.settings.product] -%}
+    {% if product %}
+    <p>{{ product.title }} </p>
+    <span>{{ product.price | money_with_currency }}</span>
+  <a href="{{ product.url }}"> {{  section.settings.button}} </a>
+  </div>
+  {% for image in product.images  limit: 2 %}
+      <div class="product_image">
+  <img src="{{ image | img_url: 'master'}}" alt="product_image" />  
+            </div>
+
+  {% endfor %}
+  {% else %}
+    No product, or invalid product, selected.
+  {% endif %}
+
+  
+</div>
+
+
+{% schema %}
+  {
+    "name": "New Product",
+	"class": "product_details_section",
+	"settings": [
+	{
+		"type": "text",
+		"id": "product_new",
+		"label": "New Product"
+	},
+	{
+		"type": "product",
+		"id": "product",
+		"label": "product"
+	},
+	{
+		"type": "text",
+		"id": "button",
+		"label": "Button text"
+	}
+],
+"presets": [
+{
+
+	"name": "New Product",
+	"category": "new_product"
+}
+
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,68 @@
+<div class = "testimonial_data page-width">
+<h2>{{ section.settings.text }}</h2>
+  <div class="slick-testimonial">
+
+  {% for block in section.blocks %}
+<div>
+<img src = '{{ block.settings.logo | img_url: 'normal' }}' alt="logo" />
+<p>{{ block.settings.details }}</p>
+<h5>{{ block.settings.name }}</h5>
+</div>
+{% endfor %}
+</div>
+</div>
+{% schema %}
+  {
+    "name": "testimonial",
+	"class": "testimonial",
+	"tag": "section",
+    "settings": [
+	{
+		"type": "text",
+		"id": "text",
+		"label": "Title"
+	}
+	],
+	"blocks": [
+	{
+		"name": "review",
+		"type": "review",
+		"settings": [
+		{
+			"type": "image_picker",
+			"id": "logo",
+			"label": "selet logo"
+		},
+		{
+			"type": "textarea",
+			"id": "details",
+			"label": "write review"
+		},
+		{
+			"type": "text",
+			"id": "name",
+			"label": "author name"
+		}
+	]
+	}
+	],
+	"presets": [
+	{
+		"name": "textimonial",
+		"category": "review",
+		"blocks": [
+		{
+			"type": "review"
+		}
+	]
+	}
+
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
