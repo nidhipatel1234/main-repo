@@ -1,0 +1,419 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Capsule I | SS22",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "unique_id": "banner_first",
+        "image": "shopify:\/\/shop_images\/Photo_12-9-20_10_41_38_am_1.png",
+        "image_2": "shopify:\/\/shop_images\/Mask_Group_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "16511161386aac3f12": {
+      "type": "collection-list",
+      "blocks": {
+        "1651116138021a2346-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "capsule-i"
+          }
+        },
+        "1651116138021a2346-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "capsule-ii"
+          }
+        }
+      },
+      "block_order": [
+        "1651116138021a2346-0",
+        "1651116138021a2346-1"
+      ],
+      "settings": {
+        "unique_id": "Collection_first",
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1651124734b7dcb481": {
+      "type": "product-data",
+      "settings": {
+        "product_new": "New Arrival",
+        "product": "knitted-bodysuit-long-sleeve",
+        "button": "Shop Now"
+      }
+    },
+    "1651066250bb57d621": {
+      "type": "collection-list",
+      "blocks": {
+        "16510662509aa28d44-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "casual"
+          }
+        },
+        "16510662509aa28d44-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "monsoon"
+          }
+        },
+        "16510662509aa28d44-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "luxury"
+          }
+        },
+        "02baacad-fd38-4906-bc21-ef08dca01755": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sports"
+          }
+        },
+        "959073e2-dc53-47a2-985b-7da3769aa303": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "minimalist"
+          }
+        }
+      },
+      "block_order": [
+        "16510662509aa28d44-0",
+        "16510662509aa28d44-1",
+        "16510662509aa28d44-2",
+        "02baacad-fd38-4906-bc21-ef08dca01755",
+        "959073e2-dc53-47a2-985b-7da3769aa303"
+      ],
+      "settings": {
+        "unique_id": "collection_second",
+        "title": "Shop By Style",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16511289099216dd23": {
+      "type": "marquee",
+      "blocks": {
+        "16511289095fcc755b-0": {
+          "type": "slider",
+          "settings": {
+            "text": "Hey USA, Free Shipping on orders over $75"
+          }
+        },
+        "e2dde7b5-2053-42af-a750-f0b7c4d78625": {
+          "type": "slider",
+          "settings": {
+            "text": "Subscribe to text notifications to get exclusive deals>>"
+          }
+        },
+        "0e83c5c8-bcee-412d-b8ff-53ea6b1d0327": {
+          "type": "slider",
+          "settings": {
+            "text": "Hey USA, Free Shipping on orders over $75"
+          }
+        },
+        "ccd1010b-2125-47cc-b47e-53e43f5332c1": {
+          "type": "slider",
+          "settings": {
+            "text": "Subscribe to text notifications to get exclusive deals>>"
+          }
+        }
+      },
+      "block_order": [
+        "16511289095fcc755b-0",
+        "e2dde7b5-2053-42af-a750-f0b7c4d78625",
+        "0e83c5c8-bcee-412d-b8ff-53ea6b1d0327",
+        "ccd1010b-2125-47cc-b47e-53e43f5332c1"
+      ],
+      "settings": {
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "casual",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "1651125553921ecb6f": {
+      "type": "image-with-text",
+      "blocks": {
+        "16511255538d6fab63-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Insert Title Here",
+            "heading_size": "h1"
+          }
+        },
+        "16511255538d6fab63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16511255538d6fab63-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "16511255538d6fab63-0",
+        "16511255538d6fab63-1",
+        "16511255538d6fab63-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_4.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1651127321cfda5550": {
+      "type": "testimonial",
+      "blocks": {
+        "1651127321bf185cbd-0": {
+          "type": "review",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Quote_1.png",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "name": "jennifer smith"
+          }
+        },
+        "fbe26540-aa32-46fb-8a44-a593d51390d9": {
+          "type": "review",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Quote_1.png",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "name": "jennifer smith"
+          }
+        },
+        "21bd9364-1d62-41fd-9b50-70d22e43cf9d": {
+          "type": "review",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Quote_1.png",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "name": "jennifer smith"
+          }
+        }
+      },
+      "block_order": [
+        "1651127321bf185cbd-0",
+        "fbe26540-aa32-46fb-8a44-a593d51390d9",
+        "21bd9364-1d62-41fd-9b50-70d22e43cf9d"
+      ],
+      "settings": {
+        "text": "What People Say"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_3.png",
+            "title": "Free Shipping",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_5.png",
+            "title": "Easy Return",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_6.png",
+            "title": "Secure Payment",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1651127854f79e821c": {
+      "type": "apps",
+      "blocks": {
+        "3ecc692e-1dae-42c5-9f1d-7b027721c901": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "poppins_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "3ecc692e-1dae-42c5-9f1d-7b027721c901"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16511280968505255e": {
+      "type": "newsletter",
+      "blocks": {
+        "165112809660a6e6d8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe To Our Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "165112809660a6e6d8-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Signup for our weekly newsletter to get the latest news,updates and amazing offers delivered directly in your inbox.<\/p>"
+          }
+        },
+        "165112809660a6e6d8-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "165112809660a6e6d8-0",
+        "165112809660a6e6d8-1",
+        "165112809660a6e6d8-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "16511161386aac3f12",
+    "1651124734b7dcb481",
+    "1651066250bb57d621",
+    "16511289099216dd23",
+    "featured_collection",
+    "1651125553921ecb6f",
+    "1651127321cfda5550",
+    "multicolumn",
+    "1651127854f79e821c",
+    "16511280968505255e"
+  ]
+}
